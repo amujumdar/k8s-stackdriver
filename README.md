@@ -1,7 +1,12 @@
-# Stackdriver Integration for Kubernetes
+# Google Cloud Operations Integration for GKE
 
-This repo contains tools for integrating [Stackdriver][stackdriverSite] with
-your Kubernetes deployment. Stackdriver provides advanced monitoring and logging
-solution that will allow you to get more insight into your Kubernetes clusters.
+Google Cloud offers integrated, out of the box [k8sMonitoring][monitoring
+and logging] for Google Kubernetes Engine (GKE) through the 
+[Google Cloud Operations suite][cloudOperationsSite] (fka Stackdriver).
 
-[stackdriverSite]: https://cloud.google.com/stackdriver/
+This repo contains tools for integrating GKE with
+[Google Cloud Operations suite][cloudOperationsSite] and is not meant
+for end-users.
+
+[k8sMonitoring]: https://cloud.google.com/kubernetes-engine-monitoring
+[cloudOperationsSite]: https://cloud.google.com/products/operations 

@@ -1,3 +1,9 @@
+{{box op="start" cssClass="boxed warningBox"}}
+**Warning!**
+
+This is an important warning.
+{{box op="end"}}
+
 # Overview
 prometheus-to-sd is a simple component that can scrape metrics stored in
 [prometheus text format](https://prometheus.io/docs/instrumenting/exposition_formats/)
