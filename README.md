@@ -3,7 +3,7 @@
 
 
 Google Cloud offers integrated, out of the box
-[k8sMonitoring][monitoring and logging] for Google Kubernetes
+[monitoring and logging][k8sMonitoring] for Google Kubernetes
 Engine (GKE) through the 
 [Google Cloud Operations suite][cloudOperationsSite] (fka Stackdriver).
 
