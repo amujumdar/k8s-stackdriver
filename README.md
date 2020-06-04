@@ -1,11 +1,14 @@
-| :exclamation:  This repo contains tools for integrating GKE with [Google Cloud Operations suite][cloudOperationsSite] and is not meant for end-users. |
-|-----------------------------------------|
+## Google Cloud Operations integration for GKE
 
+> :exclamation: **This repository is not meant for end-users.**
+> It contains source code for tools that are pre-installed in 
+> the GKE clusters.
 
-Google Cloud offers integrated, out of the box
-[monitoring and logging][k8sMonitoring] for Google Kubernetes
-Engine (GKE) through the 
-[Google Cloud Operations suite][cloudOperationsSite] (fka Stackdriver).
+Google Cloud Operations suite (fka Stackdriver) provides advanced 
+monitoring and logging solution that will allow you to get more
+insights into your Kubernetes clusters. If you are a Google
+Kubernetes Engine (GKE) user, you get [integration][k8sMonitoring]
+with Cloud Monitoring and Logging out of the box.
 
 [k8sMonitoring]: https://cloud.google.com/kubernetes-engine-monitoring
 [cloudOperationsSite]: https://cloud.google.com/products/operations 
